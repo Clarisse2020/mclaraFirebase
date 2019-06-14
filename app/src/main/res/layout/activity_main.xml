@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+<de.hdodenhof.circleimageview.CircleImageView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:src="@drawable/profilee"
+    android:id="@+id/we"
+    android:layout_marginTop="14dp"
+    />
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Reg Number"
+    android:inputType="numberDecimal"
+    android:layout_marginTop="15dp"
+    android:layout_below="@id/we"
+    android:id="@+id/ed1"
+    android:layout_marginLeft="30dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="password"
+        android:inputType="textPassword"
+        android:layout_marginTop="15dp"
+        android:layout_below="@id/ed1"
+        android:id="@+id/ed2"
+        android:layout_marginLeft="30dp"/>
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/ed2"
+        android:text="Login"
+        android:id="@+id/btn1"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:background="@android:color/black"
+        android:textColor="@android:color/white"
+        />
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/ed2"
+        android:layout_toRightOf="@id/btn1"
+        android:id="@+id/btn2"
+        android:text="Register"
+        android:layout_marginLeft="40dp"
+        android:background="@android:color/black"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="30dp"
+
+        />
+
+</RelativeLayout>

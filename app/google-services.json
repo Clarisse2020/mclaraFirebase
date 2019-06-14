@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "315994650594",
+    "firebase_url": "https://mclara-df000.firebaseio.com",
+    "project_id": "mclara-df000",
+    "storage_bucket": "mclara-df000.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:315994650594:android:3385ed51251a8e03",
+        "android_client_info": {
+          "package_name": "com.fulgence.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "315994650594-p8mccg0jmh9f9r0euiqqt5t8g8ip32bd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDguZwltnAoOKZcTbWFFx1xAHdDwRmgwsE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "315994650594-p8mccg0jmh9f9r0euiqqt5t8g8ip32bd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
